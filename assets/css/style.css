@@ -382,7 +382,7 @@ img,svg{
 
 .skills__content{
     grid-template-columns: repeat(2, max-content);
-    column-gap: 1.5rem;
+    column-gap: 4rem;
     justify-content: center; 
     align-items: baseline;
 }
