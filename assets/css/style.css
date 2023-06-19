@@ -345,7 +345,7 @@ img,svg{
 /* a propos */
 
 .about__container{
-    row-gap: 2.5em;
+    row-gap: 2.5rem;
 }
 
 .about__data{
@@ -382,7 +382,7 @@ img,svg{
 
 .skills__content{
     grid-template-columns: repeat(2, max-content);
-    column-gap: 4rem;
+    column-gap: 1.5rem;
     justify-content: center; 
     align-items: baseline;
 }
