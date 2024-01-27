@@ -45,9 +45,11 @@ const contactForm = document.getElementById('contact-form'),
     contactMessage = document.getElementById('contact-message');
 
 const sendEmail = (e) => {
-    e.preventDefault();
 
-    emailjs.sendForm('service_kijqu95', 'template_ibbzbhc', '#contact-form', 'R8buMvoMBbzXfhEc-')
+    e.preventDefault();
+    console.log(e)
+
+    emailjs.sendForm('', 'template_mp3jsob', '#contact-form', 'na19JE-5UmnWbzFoy')
     .then(() =>{
         contactMessage.textContent = 'Message envoyer avec success ✅'
 
